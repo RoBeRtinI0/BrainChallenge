@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:ignore="ExtraText">
+
+    <ImageView
+        android:id="@+id/background_or"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/background_or" />
+
+    <TextView
+        android:textSize="30sp"
+        android:id="@+id/TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <TableLayout
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="120dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:textSize="30dp"
+                android:id="@+id/button1"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="5dp" />
+
+            <Button
+                android:textSize="30dp"
+                android:id="@+id/button2"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="5dp" />
+
+            <Button
+                android:textSize="30dp"
+                android:id="@+id/button3"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="5dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:textSize="30dp"
+                android:id="@+id/button4"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="5dp" />
+
+            <Button
+                android:textSize="30dp"
+                android:id="@+id/button5"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="5dp" />
+
+            <Button
+                android:textSize="30dp"
+                android:id="@+id/button6"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="5dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <Button
+                android:textSize="30dp"
+                android:id="@+id/button7"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="5dp" />
+            <Button
+                android:textSize="30dp"
+                android:id="@+id/button8"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="5dp" />
+            <Button
+                android:textSize="30dp"
+                android:id="@+id/button9"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="5dp" />
+        </TableRow>
+    </TableLayout>
+    <Button
+        android:id="@+id/restart"
+        android:textSize="23dp"
+        android:text="Играть заново"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="100dp"/>
+
+    <TextView
+        android:id="@+id/you"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Ваши победы: "
+        android:textSize="20sp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="45dp"/>
+    <TextView
+        android:id="@+id/computer"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="55dp"
+        android:text="Победы компьютера: "
+        android:textSize="19sp"/>
+
+
+    <Button
+        android:id="@+id/button_Menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/Back"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="50dp"/>
+
+</RelativeLayout>

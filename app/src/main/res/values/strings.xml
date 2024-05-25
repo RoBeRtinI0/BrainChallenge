@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BrainChallenge</string>
+    <string name="Start">Играть</string>
+    <string name="Exit">Выйти из игры</string>
+    <string name="Back">Назад в меню</string>
+    <string name="game1">Крестики-Нолики</string>
+    <string name="choose_game">ВЫБЕРИТЕ ИГРУ</string>
+    <string name="game2">Камень-Ножницы</string>
+    <string name="game3">Викторина</string>
+    <string name="start_game">Начать</string>
+    <string name="lvl">Уровень 1</string>
+    <string name="cont">Продолжить</string>
+</resources>
